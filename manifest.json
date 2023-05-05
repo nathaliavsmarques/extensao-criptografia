@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Texto Criptografado",
+  "description": "Extensão que permite ao usuário criptografar e descriptografar mensagens.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html", 
+    "default_icon": "criptografiaimg.png"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <link rel="shortcut icon" href="imagens/Treetog-File-Type-Text.ico" type="image/x-icon">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="titulo">Decodificador de texto</h1>
+        </header>
+        <section>
+            <textarea name="texto" id="texto" cols="50" rows="10" placeholder="Digite aqui seu texto"></textarea>
+        </section>
+        <div id="atencao">
+            <img src="imagens/vector_exclamação.png" alt="Símbolo de exclamação">
+            <p>Texto em letras maiúscula não serão criptografados. Irão retornar iguais.</p>
+        </div>
+        <div id="butoes">
+            <button id="criptografar">Criptografar</button>
+            <button id="descriptografar">Descriptografar</button>
+            <button id="limpar">Limpar caixa de texto </button>
+        </div>
+        <section id="caixa-de-texto">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+        <div>
+            <button id="copiar" type="submit">Copiar Texto</button>
+            <p id="texto-copiado"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido por Nathalia Marques</p>
+        <div id="logos">
+            <a href="https://github.com/nathaliavsmarques" target="_blank"><img src="imagens/simbolo_github.jpg" alt="símbolo do github" ></a>
+            <a href="https://www.linkedin.com/in/nathaliavsmarques/" target="_blank"><img src="imagens/simbolo_linkedin.jpg" alt="símbolo do linkedin"></a>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>

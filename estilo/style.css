@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #ffff, #3d4079);
+    min-height: 100vh;
+
+}
+
+header #titulo {
+    color: #0A3871;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+
+}
+
+#texto {
+    background-color: #cedce600;
+    color: #0A3871;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 12rem;
+    height: 10rem;
+    display: block;
+    margin: auto;
+    padding: 4rem;
+    border: none;    
+    outline: none;
+
+}
+
+#texto::placeholder {
+    color: #0A3871;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#atencao  img{ 
+    width: 1rem;
+    height: 1rem;
+}
+
+#atencao {
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+
+}
+
+#butoes {
+    padding: 2rem;
+    text-align: center;
+}
+
+#criptografar,
+#descriptografar,
+#limpar,
+#copiar {
+    color: #0A3871;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: .5rem;
+    margin: .2rem;
+    border: none;
+    border-radius: 12px;
+}
+
+#criptografar:hover,
+#descriptografar:hover,
+#limpar:hover,
+#copiar:hover {
+    cursor: pointer;
+    color: #cedce6;
+    background-color: #0A3871;
+}
+
+#caixa-de-texto {
+    background-color: #cedce6;
+    color: #0A3871;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 8rem;
+    width: 80vw;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 12px;
+}
+
+#copiar {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #ffff;
+    color: #0A3871;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+footer #logos img {
+    margin-top: 1rem;
+    width: 2rem;
+}
+
+footer a {
+    color: #0A3871;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    font-weight: 900;
+    cursor: pointer;
+}
